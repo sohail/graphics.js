@@ -1,0 +1,14 @@
+/* resources/css/style.css */
+
+body {
+  background: #dddddd;
+}
+
+#canvas {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 20px;
+  background: #ffffff;
+  border: thin solid #aaaaaa;
+}

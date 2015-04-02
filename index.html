@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+  
+    <title>game-engine</title>
+	
+	<link rel=StyleSheet href="resources/css/style.css" type="text/css" media=screen>	  
+	
+  </head>
+  <body>
+  
+    <canvas id='canvas' width='400' height='400'>
+      Canvas not supported
+    </canvas>
+
+	<script src="resources/js/constants.js"></script>
+	<script src="resources/js/functions.js"></script>
+    <script src="resources/js/graphics.js"></script>
+	<script>
+      var context = document.getElementById('canvas').getContext('2d');
+      context.fillStyle = "blue";
+      context.font = "bold 16px Arial";
+      context.fillText("Few resources for 2d games", 5, 20);
+
+	  //drawLine(document.getElementById('canvas').getContext('2d'), 1, 90, 90, 30, REDCOLOR);
+	  //drawCircle(document.getElementById('canvas').getContext('2d'), 100,  100,  10, REDCOLOR);	  
+	  //drawEllipse(document.getElementById('canvas').getContext('2d'), 200, 200, 10, 20, BLUECOLOR);
+	  //drawRectangle(document.getElementById('canvas').getContext('2d'), 100, 300, 50, 50, GREENCOLOR);
+	  //drawCircle(document.getElementById('canvas').getContext('2d'), 100, 350, 10, REDCOLOR);
+	  //fillRectangle(document.getElementById('canvas').getContext('2d'), 50, 50, 10, 10, GREENCOLOR);
+	  //drawCircle(document.getElementById('canvas').getContext('2d'), 250, 250, 10, REDCOLOR);
+	  //drawEllipse(document.getElementById('canvas').getContext('2d'), 100, 300, 50, 20, BLUECOLOR);
+	  //fillCircle(document.getElementById('canvas').getContext('2d'), 250, 250, 9, GREENCOLOR);
+	  //boundaryFill8Connected(document.getElementById('canvas').getContext('2d'), 100, 100, REDCOLOR, BLUECOLOR, document.getElementById('canvas').width, document.getElementById('canvas').height); 	  	 	        	 	  
+      //boundaryFillLineRun(document.getElementById('canvas').getContext('2d'), 100, 100, REDCOLOR, BLUECOLOR);	  
+	  //boundaryFillLineRun(document.getElementById('canvas').getContext('2d'), 200, 200, BLUECOLOR, REDCOLOR);
+	  //drawArc(document.getElementById('canvas').getContext('2d'), 100, 100, 50, 90, 200, BLUECOLOR);
+	  //window.alert( rgbaToColor([0, 0, 255, 10]) );
+	  //var a = colorToRgba(REDCOLOR);
+      //window.alert( "REDCOLOR -> " + (a[0]).toString() + " " + (a[1]).toString() + " " + (a[2]).toString() + " " + (a[3]).toString()); 	  
+      //var b = colorToRgba(GREENCOLOR);
+	  //window.alert( "GREENCOLOR -> " + (b[0]).toString() + " " + (b[1]).toString() + " " + (b[2]).toString() + " " + (b[3]).toString());       	 
+      //var c = colorToRgba(BLUECOLOR);	
+      //window.alert( "GREENCOLOR -> " + (c[0]).toString() + " " + (c[1]).toString() + " " + (c[2]).toString() + " " + (c[3]).toString());	  
+      //window.alert(getPixelColor(document.getElementById('canvas').getContext('2d'), 1, 90));   	  
+      
+      drawCircle(document.getElementById('canvas').getContext('2d'), 200,  200,  10, REDCOLOR);
+      boundaryFill8Connected(document.getElementById('canvas').getContext('2d'), 200, 200, REDCOLOR, BLUECOLOR, document.getElementById('canvas').width, document.getElementById('canvas').height); 
+	</script>
+  
+  </body>
+<html>   

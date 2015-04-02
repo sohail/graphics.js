@@ -1,0 +1,14 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "name": "game-engine",
+  "description": "Basic APIs to create computer graphics",
+  "repository": "",
+  "license": "",
+  "scripts": {
+    "start": "index.html"	
+  },
+  "//COMMENT-SECTION": {
+    "//OWNER-INFO": "npm owner ls game-engine"
+  }  
+}
