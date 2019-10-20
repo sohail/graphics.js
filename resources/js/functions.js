@@ -1,5 +1,5 @@
 /* game-engine/resources/js/functions.js */
-/* Written by, Sohail Qayum Malik[sqm@hackers.pk] */
+/* Written by, Sohail Qayum Malik */
 
 /*
 @color, [R, G, B, A], Each RGBA is a value between 0 and 255 inclusive where, A - The alpha channel and, 0 is transparent and 255 is fully visible 

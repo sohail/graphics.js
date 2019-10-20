@@ -1,5 +1,5 @@
 /* game-engine/resources/js/scripts.js */
-/* Written by, Sohail Qayum Malik[sqm@hackers.pk] */
+/* Written by, Sohail Qayum Malik */
  
 function drawLine(cxt, x1, y1, x2, y2, color)  {
 

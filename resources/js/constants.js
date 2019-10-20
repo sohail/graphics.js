@@ -1,5 +1,5 @@
 /* game-engine/resources/js/constants.js */
-/* Written by, Sohail Qayum Malik[sqm@hackers.pk] */
+/* Written by, Sohail Qayum Malik */
 
 var DIR_UP = 1;
 var DIR_RIGHT = 2;
