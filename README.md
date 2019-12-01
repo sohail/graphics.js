@@ -9,5 +9,10 @@ I got interested in writing this little JS library, while reading a **Schaum Out
 The reimplementation of "Fixed memory method"(right-hand fill method) to fill a region is still WIP(Work In Process).
 I'm following pseudo-code from this wikipedia document... http://en.wikipedia.org/wiki/Flood_fill
 
+### This is how they'll appear on the screen...
 
 ![Screenshot](screenshot.png) 
+
+
+Checkout file **index.html** and file/s in the **examples** folder for how to use this library.
+ 
